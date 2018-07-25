@@ -1,0 +1,41 @@
+#equipe
+{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    border-top: #000000 2px solid;
+    padding-top: 60px;
+    margin-top: 60px;
+    vertical-align: middle;
+}
+
+.cod
+ {
+   width: 280px;
+   height:  160px;
+ }
+
+ .fifa
+ {
+   width: 350px;
+   height:  110px;
+ }
+
+ .fortnite
+ {
+   width: 240px;
+   height:  110px;
+ }
+
+ .lol
+ {
+   width: 350px;
+   height:  150px;
+ }
+
+ .overwatch
+ {
+   width: 350px;
+   height:  200px;
+ }

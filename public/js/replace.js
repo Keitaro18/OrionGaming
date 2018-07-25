@@ -1,0 +1,1 @@
+String text = html.replaceAll("<[^>]*>", "");

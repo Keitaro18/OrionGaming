@@ -1,0 +1,67 @@
+#sponsors
+{
+    border-top: black 2px solid;
+  position: relative;
+  padding-top: 60px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.media
+{
+  display: block;
+  width: 60%;
+  height: 300px;
+}
+
+.dayshop, .lasource
+{
+  float: right;
+  padding-left: 20px;
+}
+
+.engage
+ {
+   float: left;
+   padding-right: 20px;
+ }
+
+ .Day, .LaSo
+ {
+   margin-left: 40%;
+ }
+
+ #sponsors h1
+{
+   width: auto;
+   height: 100px;
+  padding-bottom: 40px;
+  color: #000000;
+}
+
+#sponsors h2
+{
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+#sponsors p
+{
+  color: #000000;
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.media-body
+{
+  flex-wrap: wrap;
+}
+
+#sponsors img
+{
+  height: 100px;
+  width: 230px;
+}

@@ -1,0 +1,168 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+
+  font-family: 'Comfortaa', cursive; 
+  overflow: visible;
+    overflox-y: scroll;
+  overflow-x: hidden;
+    height: 100%;
+    background: -webkit-linear-gradient( top, #212121, #a4a4a4) no-repeat;
+    background:    -moz-linear-gradient( top, #212121, #a4a4a4) ;
+    background:     -ms-linear-gradient( top, #212121, #a4a4a4) ;
+    background:      -o-linear-gradient( top, #212121, #a4a4a4) no-repeat;
+    background:         linear-gradient( to bottom, #212121, #a4a4a4);
+}
+
+::-webkit-scrollbar
+{
+width: 10px;
+margin-right: 3px;
+}
+
+::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 7px #BB0606; 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px ;
+background-color:  #BB0606
+}
+
+#accueil
+{
+    padding-top: 120px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#myCarousel
+{
+  width: 100%;
+}
+
+#carouselPart
+{
+  width: 100%;
+}
+
+.carousel-item > img
+{
+    width: 300px;
+}
+
+
+.article
+{
+  transition: transform .2s;
+  border: #000000 0.8px solid;
+  height: 150px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.article:hover
+{
+  transform: scale(1.1);
+}
+
+.post-meta p
+{
+  color: #000000;
+  margin-left: 350px;
+}
+
+.post-meta a
+{
+  color: brown;
+}
+
+.col-md-6, .col-sm-6
+{
+  text-align: center;
+}
+
+.post-meta
+{
+    color: black;
+}
+
+.tweet
+{
+  text-align: center;
+}
+.tweet li
+{
+  text-decoration: none;
+  font-size: 12px;
+  list-style: none;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.tweet h2
+{
+  color: black;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.tweet a
+{
+color: #BB0606;
+}
+.resultat > img
+{
+  height: 200px;
+  width: 350px;
+  margin-bottom: 80px;
+  -webkit-box-shadow: 1px 0px 28px 9px rgba(23,23,23,0.76);
+  box-shadow: 1px 0px 28px 9px rgba(23,23,23,0.76);
+}
+
+.part
+{
+  padding-top: 50px;
+}
+
+hr
+{
+border-color: black;
+}
+
+footer
+{
+    margin-top: 150px;
+}
+
+.footer-copyright
+{
+    background-color: black;
+}
+
+.text-center
+{
+    width: 100%;
+}
+
+.deep-purple
+{
+    color: white;
+}
+

@@ -1,0 +1,11 @@
+canvas 
+{
+    overflow-x: hidden;
+	background-color: #5D7182;
+    background: -webkit-linear-gradient(#5D7182 0%, #38454F 83%, #000000 100%);
+    background: -o-linear-gradient(#5D7182 0%, #38454F 83%, #000000 100%);
+    background: linear-gradient(#5D7182 0%, #38454F 83%, #000000 100%);
+    position: fixed;
+    padding: 0;
+    margin: 0;
+}

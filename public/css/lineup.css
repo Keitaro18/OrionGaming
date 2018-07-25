@@ -1,0 +1,55 @@
+#lineup
+{
+    border-top: 2px black solid;
+    text-align: center;
+    padding-top: 60px;
+    width: auto;
+}
+
+#lineup > h1
+{
+color: black;
+}
+
+.jeu
+{
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.jeux > ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.jMenu
+{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    transition: transform .2s;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.jMenu:hover
+{
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px)
+{
+    .jMenu
+    {
+        margin: 0;
+    }
+
+    .jeux > ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
